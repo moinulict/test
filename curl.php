@@ -1,4 +1,5 @@
 <?php
+//curl test
   $curl_handle=curl_init();
   curl_setopt($curl_handle,CURLOPT_URL,'http://devsxpress.com/regentairways/getData');
   curl_setopt($curl_handle,CURLOPT_CONNECTTIMEOUT,2);
